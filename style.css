@@ -1,0 +1,111 @@
+body{
+  margin: 0;
+  background-color: #272727;
+}
+
+label{
+  display: block;
+  margin-bottom: .5rem;
+}
+
+label:NOT(:first-child){
+  margin-top: 2rem;
+}
+
+input{
+  display: block;
+
+}
+
+input[type=text] {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #4584FA;
+  border-radius: 4px;
+}
+
+input[type=number]{
+  width: 5rem;
+}
+
+input[type=text]{
+  width: 8rem;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+  opacity: 1;
+ 
+}
+
+.button-creator{
+  display: grid;
+  grid-gap: 30px;
+  padding: 30px;
+  grid-template-columns: 200px 1fr;
+
+}
+
+#controles {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: .875rem;
+  background: whitesmoke;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 4px 4x 4px 0 rgba(255,255,255,.8);
+}
+
+
+
+.cssMenu{
+
+  box-sizing: border-box;
+  margin-top: 1rem;
+  height: 25px;
+  width: 550px;
+  background-color: #bbb;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.btnMenu{
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  position: relative;
+  top: 6px;
+  left: 6px;
+  background-color: #ff3b47;
+  border-color: #9d252b;
+  display: inline-block;
+}
+
+.btnZoom{
+  left: 16px;
+  background-color: #00d742;
+  border-color: #049931;
+}
+
+.btnMini{
+  left: 11px;
+  background-color: #ffc100;
+  border-color: #9d802c;
+}
+
+
+.cssContainer{
+  background-color: #151515;
+  box-sizing: border-box;
+  width: 550px;
+  padding: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.css span{
+  display: block;
+  margin-bottom: 1rem;
+  font-family: 'Roboto' !important;
+  color: whitesmoke;
+}
